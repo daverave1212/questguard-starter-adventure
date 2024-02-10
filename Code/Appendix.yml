@@ -1,0 +1,256 @@
+
+
+Custom Monsters:
+- Wight
+- Vampire Cultist
+- Desecrator (EPIC)
+- Lamassu
+- Mortessa
+- Sedrik
+
+
+Whispershade:
+  Type:         Undead
+  Degree:       Normal
+  Experience:   100
+  Stats:        0/1/0/1/0
+  Health:       20
+  Armor:        0
+  Speed:        5 (Flies)
+  Initiative:   7
+  Abilities:
+    - Cursed Attack:
+        Damage: 1d6
+        Effect: Inflicts a Curse Mark on the target if it doesn't already have one (see story for explanation).
+  Passives:
+    - Resistances: Takes 50% less Necrotic Damage.
+    - Weaknesses: Takes 50% more Divine Damage.
+  Avoids AoE: No
+  Behavior: Attacks the closest target and fights until death.
+  Lore: None
+  Suggested Obstacles:
+    None
+  Monster Data: No tactic, mid HP, no gimmick
+  Role: Main Enemy
+  Variants: None
+  Story Ideas: None
+  Valuable Loot: None
+
+
+VampireCultist:
+  Type:         Undead, Person
+  Degree:       Normal
+  Experience:   175
+  Stats:        3/3/1/2/0
+  Health:       45
+  Armor:        2
+  Speed:        6 (Flies)
+  Initiative:   4 (secretly 8)
+  Abilities:
+    - Claw:
+        A: Half-Action
+        Damage: 3 Slash Damage
+    - Essence Drain:
+        A: Half-Action
+        Cooldown: Once / Turn
+        Range: 6 meters
+        Effect: Deal 1d6 Necrotic Damage to a Unit. Heal another Unit for the Damage dealt.
+  Passives:
+    - Frightening: After a Unit melee attacks the Vampire Cultist, it becomes Fumbling for the rest of its turn.
+    - Weaknesses: Takes 50% more Divine Damage and Damage from silvered weapons
+    - Immunities: Immune to Psychic Damage, and being Feared and Charmed.
+    - Secret Identity (Flavor): At first, the Vampire Cultists is indistinguishable from a normal cultist. It has 8 Initiative secretly, but until it starts its turn, Players don't know that. On its first turn, the vampire reveals itself.
+  Avoids AoE: Yes
+  Behavior: Focuses on ranged attackers (usually Mages, Hunters, etc). Heals itself with Drain, or heals another of its allies if they need it more. Moves smartly.
+  Lore: An Order of the Curse member, who was given a special curse of vampirism and several Curse Marks by Lord Sedrik. With large wings, sharp claws and access to curse magic, the Vampire Cultist is a foe to fear. However, its power is diminished by Mortessa's aura - had it not been for the blocking of blood magic, the Vampire Cultist would possess incredible blood powers. How lucky...
+  Suggested Obstacles:
+    None
+  Monster Data: No tactic, mid HP, no gimmick
+  Role: Main Enemy
+  Variants: None
+  Story Ideas: None
+  Valuable Loot: None
+
+
+Desecrator:
+  Type:         Undead, Whispervale
+  Degree:       Epic
+  Experience:   250 (125 x2)
+  Stats:        2/4/0/1/0
+  Health:       0.85
+  Armor:        0
+  Speed:        3 (Teleports)
+  Initiative:   7
+  Abilities:
+    - Sworn Blade:
+        Damage: 1d6 + 2 Slash
+        Ambush: Deals 50% more Damage if the target hasn't yet taken Damage from Sworn Blade.
+    - Desecrate: A Unit and all its allies within 2 meters of it take 1d4 Necrotic Damage and must roll a Sense Check at least 11 or be Feared.
+  Passives:
+    - Unnerving Aura: If a Unit ends its turn and it hasn't Moved from its place this turn, it takes 3 Psychic Damage (ignoring Defense).
+    - Resistances: Takes 50% less Psychic and Force Damage.
+  Avoids AoE: No
+  Behavior: Fights until death. Does not move smartly.
+  Lore: None
+  Suggested Obstacles:
+    None
+  Monster Data: No tactic, mid HP, no gimmick
+  Role: Main Enemy
+  Variants: None
+  Story Ideas: None
+  Valuable Loot: None
+
+Mansion Lamassu:
+  Type:         Fiend
+  Degree:       Epic
+  Experience:   300 (100 x3)
+  Stats:        1/2/0/3/3
+  Health:       -
+  Armor:        0
+  HPCoef:       0.9+
+  Speed:        3 (Teleports)
+  Initiative:   0
+  Abilities:
+    - Claw:
+        Damage: 1d8 Slash
+        Antiheal: The target can't be healed until Lamassu's first turn on next Round.
+    - Gaze:
+        Range: 6m
+        Effect: 2 Units must roll a Sense Check at least 10 or be Blinded.
+    - Mana Tear: |
+        All enemies within 1 meter take 1d6 Necrotic Damage. If they spent any Mana this Round, the Damage increases by 50%.
+  Passives:
+    - Warding Clones: |
+        Immediately when entering combat, briefly vanish, then split into a number of Clones equal to the Player Characters (on any spaces).
+        Only one of the clones is the real one -- you choose which.
+        Whenever a Clone that is not real is hit by a Unit (with anything), it disappears (only the main Lamassu can be Damaged).
+        Clones can deal Damage and take turns (see Clone Attacks).
+    - Clone Attacks: |
+        When the Lamassu would take a turn, any of the Clones can take it instead.
+        Clones deal the Damage as normal.
+    - 50% Clones: |
+        When reaching 50% Health, the Lamassu further splits into 3 Clones.
+        From now on, whenever a Clone dies, it creates Toxic Gas in a 5 meter area centered on it.
+    - Immunities: Immune to Poison and Blind.
+  Avoids AoE: No
+  Behavior: None
+  Lore: None
+  Suggested Obstacles:
+    None
+  Monster Data: No tactic, mid HP, no gimmick
+  Role: Main Enemy
+  Variants: None
+  Story Ideas: None
+  Valuable Loot: None
+
+
+
+Mortessa & Black Drake:
+  Type:         Undead, Person, Dragon
+  Degree:       Epic
+  Experience:   450 (150 x3)
+  Stats:        5/1/4/2/0
+  Health:       -
+  Armor:        0
+  HPCoef:       0.5
+  Speed:        3
+  Initiative:   6
+  Abilities:
+    - Black Drakeflame:
+        Range: 6 meters to edge
+        Effect: 2d6 Fire Damage in a 3 meter diameter area.
+    - Curse of the Rose: |
+        A veil of sharp rose petals slash a Unit for 1d6 Slash Damage.
+        At the end of its next turn, if it didn't pick up a Rose, it takes another 1d6 Damage and is Dazed and Slowed.
+    - Red Dead: |
+        The closest Rose to a player Unit is raised into a Rose Zombie.
+        Then, 2 more Roses grow somewhere on the battlefield, at least 5 meters away from any Player Unit.
+    - Bite/Dagger: 1d6 Pierce Damage
+  Passives:
+    - Wither Roses: |
+        When combat starts, each Player Unit immediately loses 25% of their current Health.
+        Then, for each Player Unit, a Rose grows somewhere far away from it (10-ish meters).
+        When a Rose is picked up, the Unit heals for 25% of its maximum Health.
+        Mortessa and her allies never pick up or destroy Roses.
+    - 0% - Phase 2: |
+        When Mortessa (& Black Drake) reach(es) 0% Health, she is knocked off the Dragon.
+        Mortessa and Black Drake become separate enemies.
+        Mortessa takes on an undead-ish form and starts levitating.
+  Avoids AoE: No
+  Behavior: None
+  Lore: None
+  Suggested Obstacles:
+    None
+  Monster Data: No tactic, mid HP, no gimmick
+  Role: Main Enemy
+  Variants: None
+  Story Ideas: None
+  Valuable Loot: None
+
+Mortessa:
+  Type:         Person, Undead
+  Degree:       Epic
+  Experience:   250 (125 x2)
+  Stats:        0/0/4/2/0
+  Health:       -
+  Armor:        0
+  HPCoef:       0.45
+  Speed:        3 (Flies)
+  Initiative:   6
+  Abilities:
+    - Curse of the Rose: |
+        A veil of sharp rose petals slash a Unit for 1d6 Slash Damage.
+        At the end of its next turn, if it didn't pick up a Rose, it takes another 1d6 Damage and is Dazed and Slowed.
+    - Decaying Bloom: |
+        Use only if any Player Unit is within 2 meters of a Rose.
+        The Rose explodes, dealing 2d4 Necrotic Damage to all Units within 2 meters of it.
+    - Deathly Charm: |
+        The farthest Unit from Mortessa takes 20% of its Maximum Health as Psychic Damage and must roll a Sense Check at least 11 or be Charmed.
+    - Dagger: 1d6 Pierce
+  Passives:
+    - Shadow Realm: |
+        When this phase starts, all Players roll a Might Check. The lowest roll becomes trapped in the Shadow Realm with a Whispershade.
+        When that Whispershade is defeated, the Player returns to the normal world.
+    - 50% Darkness: |
+        When reaching 50% Health, summon a 7 meter diameter zone of magical Darkness centerd on Mortessa.
+    - Immunities: |
+        Can see in the dark (even magical).
+        Immune to being Feared and 
+  Avoids AoE: No
+  Behavior: None
+  Lore: None
+  Suggested Obstacles:
+    None
+  Monster Data: No tactic, mid HP, no gimmick
+  Role: Main Enemy
+  Variants: None
+  Story Ideas: None
+  Valuable Loot: None
+
+Black Drake:
+  Type:         Dragon, Undead
+  Degree:       Normal
+  Experience:   175
+  Stats:        5/1/0/0/0
+  Health:       -
+  Armor:        0
+  HPCoef:       0.45
+  Speed:        6
+  Initiative:   6
+  Abilities:
+    - Black Drakeflame:
+        Range: 6 meters to edge
+        Effect: 2d6 Fire Damage in a 3 meter diameter area.
+    - Bite: 1d6 Pierce Damage
+  Passives:
+    - Flyer: Flies 3 meters above the ground, unless knocked down.
+  Avoids AoE: No
+  Behavior: None
+  Lore: None
+  Suggested Obstacles:
+    None
+  Monster Data: No tactic, mid HP, no gimmick
+  Role: Main Enemy
+  Variants: None
+  Story Ideas: None
+  Valuable Loot: None

@@ -1,1 +1,1 @@
-# questguard-starter-adventure
+Copyrighted by Dave Doublee (GRIFFINCRAFT SRL)
