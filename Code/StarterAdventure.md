@@ -1,10 +1,38 @@
 
-# Starter Adventure
-## Names
-- Withering Hollow
-- Withering Vale
-- Shrouded Hollow
-- Whispervale
+
+# Changes
+
+## Currently:
+A priest needs to be escorted to another village to replace the previous priest who disappeared mysteriously.
+- He got this information through the church network
+- He is unknowingly carrying a rosary with a cursed bead
+
+## New:
+A retired paladin wants to be escorted to another village to investigate the disappearance of a priest he studied with years ago.
+- They usually exchange letters every year, but this year he got no response... from anyone. And I sent multiple letters. I fear something may have happened to him or the church.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Whispervale
 ## Theme
 Foresty environment, turning slightly autumny.
 Sky is cloudy. It might rain.
@@ -57,7 +85,7 @@ Other than wanting immortality, power, to destroy the vampire
 # NPC's
 - Sedrik Ashcroft (vampire)
 - Mortessa Farell (lich)
-- Father Alan Johnson (priest)
+- Ser Alan Johnson (retired paladin)
 - Riven (Druid)
 
 - "Chug" Ogcharug Orangescale (innkeeper, very fat dragonborn)
@@ -133,13 +161,15 @@ _[Cult Hideout B]_ Once he is free, he will live a normal life and seek to destr
 _[Cult Hideout B]_ He has spent the past centuries learning non-occult magic
 _[Temple Ch3]_ Many people with these curses die.  Only certain blood types can bear the curse.
 _[Tent Encounter]_ Only people with O positive can survive the curse. Eventually, all people with O+ will live, the rest -- die.
-_[Peasants]_ Sedrik targets only those who dabble in dark magic... for now?
+_[Druid] [Peasants]_ Sedrik targets only those who dabble in dark magic... (because he tracks everyone with a curse mark)
 _[Goblin Hideout] [Cult Hideout A] [Cult Hideout B]_ Sedrik aims to destroy dark magic artefacts so Mortessa can't have them...
 _[Cult Hideout A]_ ...and to power his "mass blood infection" device
 _[Mysterious Cultists]_ [Undead convoy] His Dementors aren't actually his; they're Mortessa's shackled Dementors; he uses them to transfer curses
 _[Shadow Realm]_ The Dementors are actually the restless souls of people who were killed, tricked or cursed by Sedrik and want revenge on Sedrik
 _[Mortessa]_ He lives in an ancient dungeon, right underneath the town
 Once removed, you become immune to the Curse Marks.
+The curse gets stronger the farther you go from Whispervale.
+The curse also acts as a tracking device for Sedrik
 
 
 _[Bard after box]_ There is a strange effect around town -- people age faster and blood magic doesn't work on them
@@ -233,7 +263,7 @@ Several people are organizing a vampire hunt! Join?
 
 
 # Character Creation
-If there is a Cleric / Paladin, tie Father Alan.
+If there is a Cleric / Paladin, tie Ser Alan.
 *If there is a Druid, they heard rumors of Riven, and wish to meet them
 If there is a Hunter, they heard rumors of a dragon
 If there is a Mage, they sense a very feit, unusual magic in the air that you have never seen.
@@ -260,15 +290,16 @@ If there is a Warrior, they know about goblins terrorizing the townsfolk and the
 # Locations Outline
 
 ## Road to Whispervale
-Players meet Father Alan Johnson: Nice to meet you, what are your names?
+**NEW**
+Players meet Ser Alan Johnson: Nice to meet you, what are your names?
 _Describe characters_
-Players escort a priest Father Alan to the Town, through a forest road. Once there, you will be paid 200g, from their church's funds.
-He tells them he is to replace the previous priest because he has gone missing.
-> I can do a bit of healing, but I'm not a battle cleric, nor a medic. A people's person, if you like.
-> Whispervale? It's a nice town. I haven't been there in year.
-> Our god? [feel free to improvise]
+Players escort a priest Ser Alan to the Town, through a forest road. Once there, you will be paid 100g each, from the paladin's personal funds.
+He tells them he is investigating a missing priest he studied with in the past - an old friend.
+> I can do a bit of healing but my combat days are over. I haven't lifted a sword in years.
+> Whispervale? It's a nice town. I've been there a few times, to visit my friend.
+> Our religion? I am part of a branch of the Church of Solais, our god. We give thanks for the light of day and for the healing powers, and pray that Solais show us the path and light the way in our darkest times.
 > I don't have a map of the area, but I do have a town map of Whispervale... here.
-Careful for bandits and goblins!
+> Maybe the courier couldn't make it there or back... and if there are bandits roaming the roads, we'd best take care of them.
 
 They are attacked by Shades. Players can describe where they got hit
 
@@ -292,28 +323,27 @@ Players become cursed (he isn't able to cure it - this is black magic! I have ne
 
 
 
-
-
-
-
-
-
-
-## Druid's Home
+## Riven's Home
 _If first time here..._
 The Druid's house perimeter is trapped (_puzzle_).
 Upon arrival, they realize they misused the pronoun - the Druid is actually a he. Riven refuses to help unless persuaded (gold? or smth else). He can take a look at the curse and give some info and offer a free potion. The curses are difficult to remove.
 Shades are drawn to black magic - artefacts, things like that.
-❗ Riven needs a lamp. A magical one. It protected the gravedigger from evil spirits. The old gravedigger had one (insert their relation). She also needs something else from there.
 > I haven't seen the curse before. I've heard rumors about it, but...
-> Why I live alone...
+> Why I live alone... a long time ago, I accidentally ate someone... I had a change in mind [partial truth]
 > Town's folk? I've helped cure an ailment for Boris. Cat's fever. He lost a leg, but he was fine. Some other townsfolk too.
 > Mortessa? Haven't heard of her. (lie)
 > Sedrik? He used to be a noble a long time ago, correct?
 > Black bead? Show me... I've seen these before, but I have no idea what they are (truth)
 
+> Riven needs a lamp. A magical one. It protected the gravedigger from evil spirits. The old gravedigger had one (insert their relation).
+> In return, I need a favor. Go to the mansion. The basement is magically locked with a password. The password is Farell. From there, bring me the crystal ball.
+
 **If players got here after going to town, end of Adventure.**
 
+
+What could Riven want players to do to help Mortessa?
+- Find information about Sedrik's plans and location
+- Retrieve an item to stop Sedrik
 
 
 
@@ -327,11 +357,12 @@ Shades are drawn to black magic - artefacts, things like that.
 ## Town
 _When ariving in town..._
 _In the distance, you can see a mansion... how many houses and people..._
-**Reward: Once per chapter, players can come to Father Alan and be healed for a fee of 50 gold.**
-> I think you should rest. The tavern has good rooms.
+**Reward: Once per chapter, players can come to Ser Alan and be healed for a fee of 50 gold.**
+> I think you should rest. The tavern has good rooms. I will head directly to the temple. Feel free to come by.
+> You can always come to me if you need guidance
 Shopping. Hub. Tavern. Temple (can't cure curse).
 List the full range of options the players have to visit.
-> Map of town (given by father Alan... "oh, I found this! Thought I'd lost it!")_
+> Map of town (given by Ser Alan... "oh, I found this! Thought I'd lost it!")_
 Activities possible:
 - Tavern (housing, rumors -- fishy temple quest, merchant Periwinkle -- goblin trouble)
 - Temple (healing) (Dead Priest ❗)
@@ -378,7 +409,17 @@ Sedrik appears there. Don't scream.
 - I need your help
 I have something for you - Shackles. They can shackle an undead. I use something similar to bind the Shades to my control. You will need them if you go after Mortessa.
 
-#### When exiting the tavern... (Sylvaine)
+
+
+
+
+
+
+
+
+
+
+### Town: Town Square
 Sylvaine needs her accordion back
 > I need back a stolen accordion. Goblins stole it. I want it back.
 > Oh it's magic and cursed for sure!
@@ -444,15 +485,15 @@ Looking deeper into the church basement (trapped), players can find an old altar
 Upon inspection, the tattoos are slowly steaming and disappearing.
 They also find his journal, detailing how the cult promised him money and protection from the spirits for each curse. On the last day, he met Sedrik which is full of tattoos and curses. It vaguely describes him transferring curses to him and asking him "are you sure?".
 Rumors are the curses can provide special "protection" agains the aging magic, but he hasn't figured out yet what that means. If only he had more curses upon him and he could handle them...
-**Reward:** Once per chapter, players can come to Father Alan and be healed **for free**.
+**Reward:** Once per chapter, players can come to Ser Alan and be healed **for free**.
 _Rose petals_
 
 #### If 3 days have passed...
 Someone came to the temple to seek help today. She died before my eyes. Then her curse started to evaporate into thin air...
 She claims many people with these curses die. Only certain blood types can bear the curse.
 
-#### Father Alan Confrontation (❗)
-If heavily pressed, Father Alan is keeping a strange **black bead**. Obviously cursed.
+#### Ser Alan Confrontation (❗)
+If heavily pressed, Ser Alan is keeping a strange **black bead**. Obviously cursed.
 He reveals when praying on the rosary, he had a waking dream. It was the town of Whispervale, and the voice of an old woman.
 
 
@@ -489,6 +530,7 @@ If players take the people out of the house and to a safe space, the cultists se
     3                   1 Vampire Cultist, 2 Cultists 
     4                   1 Vampire Cultist, 3 Cultists
     5                   1 Vampire Cultist, 4 Cultists
+    + Followers         Special (see description)
 
 Players find out that the cult is seeking to _cure_ their master of his perils and is trying not to kill people, but kidnap them and force the curse upon them (or initiate them into the cult willingly). Cult members can transfer the curse from themselves to someone else. There are no more than 50 members.
 
@@ -527,6 +569,7 @@ If players make it inside anyway, skip to **The Mansion (For Real)**
 
 ### Mansion Interior (❗)
 House of a Lamia that is everpersent and can teleport.
+The house can tell signs why Sedrik had so much money.
 
     Encounter: Rats
     Players             Enemies
@@ -552,6 +595,7 @@ If players are responsive to Sedrik, he will tell them his story:
 > He was an occult investigator noble cursed with 1000 curses by an eldritch mage beacuse he dabbled in his affairs
 > The only way to get rid of the curses is to transfer them to other alive people, 1 by 1. 1000 of them
 > The curses don't allow him to stray too far from his place of rest
+> The curse gets stronger the farther you go from Whispervale.
 He wants them to help him destroy Mortessa: she is slowly draining the life of the townsfolk to keep herself alive and raising undead. I also don't know what she is planning, but she is raising undead... a lot of them.. All these Shades - they are his. I just repurposed them. I don't raise undead and I never will. It's inhumane.
 ❗ Before he was living here, Sedrik gathered a set of clues about where the lich is. The players must decipher the clues to find out his location.
 
@@ -583,6 +627,7 @@ Dungeon (timed combats -- reinforcements).
     3                   4 Goblins
     4                   4 Goblins + 1 Bannerman
     5                   5 Goblins + 1 Hound
+    + Follower          + Hound
 
 
     Encounter: Ogre
@@ -590,6 +635,7 @@ Dungeon (timed combats -- reinforcements).
     3                   1 Ogre + 1 Goblin + 1 Hound
     4                   1 Ogre + 2 Goblins + 1 Hound
     5                   1 Ogre + 2 Goblins + 3 Hounds
+    + Follower          + Hound
 
 _Rose petals (teleport)_
 Players overhear goblins talking to the ogre about "What is this!? A piece of wood!? I said only bring me **eldritch** artifacts!!! Mortessa won't accept any other."
@@ -646,6 +692,7 @@ When players start to dig, they get attacked; enemies come every round. They mus
     3                   1 Ghoul + 2 Skeletons + 1 Minor Ghost / Round
     4                   1 Ghoul + 3 Skeletons + 1 Minor Ghost / Round
     5                   2 Ghoul + 2 Skeletons + 1 Minor Ghost / Round
+    + Follower          + Minor Ghost
 
 _Rose petals (teleport)_
 ❗ They can then return to the Druid.
@@ -699,6 +746,7 @@ Players find the Druid and they must protect her for X turns as she does the rit
     3                   Desecrator + 2 Mana Spawn
     4                   Desecrator + 2 Mana Spawn + 1 Shade
     5                   Desecrator + 2 Mana Spawn + 2 Shade
+    + Follower          + Shade
 
 Players gain **Felinar of the Shadow Realm**:
 - Can transport them to the shadow realm, which acts as fast travel.
@@ -755,6 +803,7 @@ If the curse plan fails, Sedrik will meet them the next day and plan an attack o
     3                   Mortessa + 5 Zombies
     4                   Mortessa + 6 Zombies
     5                   Mortessa + 7 Zombies
+    + Follower          + Zombie
 
 The players are told to go to the other Cult Hideout B. They need to get him there.
 They also want to plan a attack on Mortessa.
@@ -793,6 +842,7 @@ Dungeon.
     3                   Cult Hierarch + 1 Cultist + 1 Bat Swarms
     4                   Cult Hierarch + 1 Cultist + 2 Bat Swarms
     5                   Cult Hierarch + 1 Cultist + 3 Bat Swarms
+    + Follower          + Shade
 
     TODO:
 
@@ -836,6 +886,7 @@ Undead and the dragon.
     3                   Mortessa + Dragon
     4                   Mortessa + Dragon + 2 Minor Zombies
     5                   Mortessa + Dragon + 4 Minor Zombies
+    + Follower          + Minor Zombie
 
 
 > Mortessa wants to gather as many eldritch artefacts to become a lich and destroy Sedrik, then end the aura of drainage.
@@ -946,16 +997,12 @@ After defeating him, he turns back into a human. Players can choose to spare him
 - If players fail the kidnapping mission
 - If players ask for help
 
+#### Practical TO-DO's
+- Loot for Whispershades fight
+
 #### Writing To-Do's
-Foreshadowing for: Desecrator, Lantern, Mortessa's Roses
-+1 X for every mercenary players brought
-Intro: Curse provides boons at night
-Intro: The blood curse aura
-Father Alan: "You can always come to me if you need guidance"
 NPC interactions with questions about other NPC's.
-Father Alan will give wisdom when the players need it or are lost.
-Every failed or missed mission has an eldritch artefact that goes to the lich. Go through every quest.
-Every cultist killed lowers the power of the vampire.
+Ser Alan will give wisdom when the players need it or are lost.
 Sedrik does things in the meantime.
 Fill with foreshadowing, easter eggs, events for story clarifications, traps, puzzles.
 Add some Fiends and Aberrations.
@@ -964,6 +1011,9 @@ NPC's drop their house keys or special items.
 For every NPC: If players threaten or kill them
 Add extra incentives for players to go after Mortessa and Sedrik ("Heroes, we must go after Mortessa")
 Add backdrops for "If..." sections with images for easy understanding
+##### Done
++1 X for every mercenary players brought
+Intro: Curse provides boons at night
 
 #### To-Do's
 For each thing, do a "If players fail"
@@ -972,11 +1022,16 @@ If an NPC has "If players do X..." have it as a quote that sends the GM to the s
 Every location will have a "go to section X"
 "End of adventure" with ifs (?)
 
+#### Maybe To-Do's
+Every failed or missed mission has an eldritch artefact that goes to the lich. Go through every quest.
+Every cultist killed lowers the power of the vampire.
+
 #### Other (Later)
 Challenge Mode
 Completion and final rank
 
 #### Props
+- Chug's note to the mayor
 - Map
 - Map of town
 - Dead priest's notes
