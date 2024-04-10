@@ -92,6 +92,7 @@ Other than wanting immortality, power, to destroy the vampire
 - Periwinkle Yee (merchant, bertle raccoon)
 - Sylvaine Ebergail (bard)
 - Boris Ironhand (blacksmith)
+- Golly Thumbson (mayor)
 
 - Tony O'Connor (cult escapee)
 
@@ -504,8 +505,8 @@ He reveals when praying on the rosary, he had a waking dream. It was the town of
 
 
 ### Town: Fisherman
-Players can find out that the fisherman had a dagger he used to skin fish with.
-As he was dying, he told me he destroyed it. That dagger always made me feel nauseous.
+The fisherman wanted to be part of the cult, but had a bad blood type.
+[NOT DAGGER!]
 She knows nothing more. Feel free to improvise non-important details.
 
 ### Town: Guards (Outskirts)
@@ -980,18 +981,12 @@ After defeating him, he turns back into a human. Players can choose to spare him
 - Black beads -- players can use them to literally see the past and gain info on Sedrik's plans
 
 - Players gain immunity to the curse?
-- What is Sedrik's secret plan that is only revealed after Mortessa?
-    - 
 - Sedrik's Mansion:
     - Mirror
     - Painting
 - What is Sedrik's special theme?
     - He is black
     - He has a gun
-    - He fights for the light?
-- What is a plot twist for Mortessa?
-    - She is a pink rose themed necromancer
-- What other plot twists?
 
 - Midnight kidnapping (if players delay curing the curse, X happens)
 - If players fail the kidnapping mission
@@ -999,8 +994,10 @@ After defeating him, he turns back into a human. Players can choose to spare him
 
 #### Practical TO-DO's
 - Loot for Whispershades fight
+- Named Loc-
 
 #### Writing To-Do's
+[Show players a picture of...]
 NPC interactions with questions about other NPC's.
 Ser Alan will give wisdom when the players need it or are lost.
 Sedrik does things in the meantime.
@@ -1038,7 +1035,11 @@ Completion and final rank
 - Gravedigger's journal
 - Sedrik's clues on Mortessa
 - Black beads
+
 Magic Items:
+- Chug's Claymore
+- Fisherman's
+- The Crystal Ball
 - Accordion spell book
 - Shackles item
 - Lamp
