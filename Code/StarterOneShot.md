@@ -224,10 +224,10 @@ Going ahead, there seem to be 2 roads. One has human tracks on the bridge. The o
 They can see the light more clearly now, and it's gettig darker.
 If players make a fire, there will be moths coming to the flame.
 
-Left goes to Wind's Pass
+Left goes to Broken Bridge
 Right goes to the Dim Caverns
 
-## Wind's Pass (Path 1)
+## Broken Bridge (Path 1)
 Players follow the human tracks and eventually reach a broken bridge.
 They catch a glimpse of Rilda (Sense levels).
 Players can find a way to cross it.
@@ -239,7 +239,7 @@ The corpse has some scribbled notes about fiends (not directly mentioning the li
 
 
 
-## Dim Caverns (Path 2)
+## Rocky Pass (Path 2)
 If players follow the strange tracks, they come across a butterfly nest.
 They catch a glimpse of Rilda (Sense levels).
 Players find the skeleton of a guard being eaten by moths (and moth coccoons growing on him). Players knew nothing of a missing guard.
@@ -279,6 +279,8 @@ Puzzle
 The light is a fiend that manipulates the minds of people to come and investigate.
 The light is now being surrounded by swarms of moths, making it dimmed.
 
+The light normally kills all men, but since it is surrounded by moths, its effect is mitigated.
+
 When fighting Rilda, players can occasioanlly see the light spirit's true form, which is a grotesque moth beast made of light that grows every turn.
 
 > The mayor... he has seen us. The morning when the wife Rilda was transformed, he tried to climb up with the guards. One of those men we took as tribute, and devoured him to sprout new butterflies. The mayor was not happy with our new form. With respect for the mayor, we let him live.
@@ -296,6 +298,8 @@ Mayor:
 > ...Moth monsters? Ghosts? I did not know about them.
 
 
+# TODO
+Hidden clues about the hermit back in the day (village + real name)
 
 
 
@@ -303,33 +307,104 @@ Mayor:
 
 
 
+# Appendix
+
+
+## Handouts
+
+When one says "magical light", it is generally associated with something holy, a divine phenomenon. But from the moment I saw it, I knew that thing was by no means holy. Such events don't happen out of nowhere, certainly if correlated with disappearances.
+Could it be a fiend? Such creatures usually have no explicable origin - they simply appear out of nowhere, and they are not spirits, nor demons or ghosts. They are often "parasites", and require hosts or  Some say fiends are summoned on rare phenomena, like lightning striking the same place twice, a flipped coin landing on its side, or an animal being birthed in an unusual location.
+I shall continue my journey to the shrine. If perhaps I spot something peculiar, I will jot it down.
+
+## Items
+
+    Name: Effigy
+    CustomIconPath: https://i.imgur.com/tr4EeMA.png
+    A: Half-Action
+    Cooldown: Once / Quest
+    HasMixins: true
+    Effect: |
+      Protects the wearer from being Silenced, but increases Psychic Damage taken by 50%.
+    Notes: A Silenced Unit may not use any Ability except Default Moves (e.g. Sprint).
+
+## Monsters
+
+  Name:         Hawkmoth
+  Type:         Beast, Fiend
+  Experience:   75
+  Stats:        0/3/0/2/0
+  Health:       21
+  Speed:        6 (Flies)
+  Initiative:   5
+  Abilities:
+    - Bite:
+        Damage: 1d4 Acid
+        Moth Fever: Any Unit bitten gets Moth Fever for 1 minute - if a Unit with Moth Fever ends their turn with any unspent Movement, they take 1d4 Poison Damage and are Blinded on their next turn.
+        Notes: A Blinded Unit does 50% less Damage, and all its Checks are reduced by 50%.
+  Passives:
+    - Sparkle Wave: When a Hawkmoth dies, it emits a strange silvery glow, and all other Hawkmoths within 2 meters are healed for 1d8.
+    - Resistances: Takes 50% less Damage from Poison.
+    - Weaknesses: Takes 50% extra Damage from Fire.
+    - Darkvision: Can see in the dark
+  Avoids AoE: No
+  Behavior: |
+    Hawkmoths attack the closest target to them.
+    Remember that any enemy can Sprint for 4 meters instead of using their Action!
+  Lore: |
+    Hawkmoths are giant butterflies spawned by the moth queen Rilda, from the corpses of eaten adventurers.
+    These Hawkmoths are drawn to the effigies placed around by the hermit, and are incentivized to protect areas adorned with those effigies.
 
 
 
 
+  Name: Rilda
+  Type:         Person, Fiend
+  Experience:   250 (125 x2)
+  Stats:        2/4/1/2/0
+  Health:       60
+  Speed:        3 (flies)
+  Initiative:   6
+  IsCondensedLeft: true
+  Abilities:
+    - Claws (2m):
+        Damage: 1d6 + 1 Slash
+        Cleave: Also damages one more enemy within 1 meter of the target (if withing range).
+    - Moon Beam (10m): A Unit must roll a Dexterity Check at least 10 or be Silenced and take 1d4 Force Damage.
+  Passives:
+    - Mothforms: Upon reaching 40 and 20 Health, Rilda dematerializes and reappears up to 10 meters away, and freely casts Moon Beam.
+    - Resistances: Takes 50% less Damage from Cold and is immune to being Blinded.
+    - Darkvision: Can see in the dark
+  Avoids AoE: No
+  Lore: |
+    Rilda was a dying woman who sought the aid of the hermit. The hermit showed her way to the light, as she was a suitable host for the fiend's corruption. The light transformed Rilda and forced her to kill villagers so the moth swarm could eat and grow.
+    But which fate is worse: death, or transformation?
+  Behavior: |
+    As an Epic monster, Rilda will take 2 turns, one after the other. Note that on her turns, she can't use the same Ability consecutively.
+    If too far away, use Moon Beam.
+    Rilda will seek to attack enemies that are stuck next to eachother, to hit both of them with Claws.
 
 
+  Name: The Light
+  Type:         Fiend
+  Experience:   75
+  Stats:        0/-2/0/2/0
+  Health:       50
+  Speed:        0
+  Initiative:   0
+  Abilities:
+    - Shake Off:
+        Effect: All Units standing on it must roll a Might or Dexterity Check (of choice) at least 10 or be Dazed and take 1d4 True Damage.
+        Notes: Note that Rilda is flying, not standing. A Dazed Unit only has a Half-Action on its turn.
+    - Pulling Attraction: The 2 farthest Enemies must roll a Sense Check at least 9 or be pulled up to 3 meters towards the light, and take 1d4 True Damage.
+    - Mind Corruption:
+        Effect: The closest Enemy must roll a Sense Check at least 10 or take 1d4 Psychic Damage and be Feared.
+        Notes: A Feared Unit can only do 1 Act on its turn (can only do one thing, e.g. Move, do one attack, cast one spell, etc).
+  Passives:
+    - Vulnerable Light: Takes 50% less Damage from all sources if not hit directly in the light bulb.
+  Avoids AoE: No
+  Lore: |
+    It is not known how this creature got up here, or how it was possible to grow to such sized - fiends appear and live in mysterious ways. However, the Light - or the Moth King - has corrupted not only Rilda, but the entirety of Mount Hyhelm's peak.
+  Behavior: |
+    On its first Round, it will use Shake Off. On its second, Pulling Attraction. On its third, Mind Corruption. Then it starts again from the first Ability.
+    The Light can not move from its place, and can be attacked anywhere on its body, but takes 50% reduced Damage unless targeted directly in the light bulb.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Island
-An island 'rose from the ocean' overnight.
-Turns out the island did not 'rise', but it 'fell' from the sky.
-Players must work together to resolve the following problem(s):
-- There are thunderstorms much too often
-The problem is resolved by defeating:
-- An evil air elemental
-- A giant air serpent
